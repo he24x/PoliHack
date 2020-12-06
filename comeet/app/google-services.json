@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854440539861",
+    "project_id": "commeet-5c2e2",
+    "storage_bucket": "commeet-5c2e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854440539861:android:7bbe44ea97cd760793545c",
+        "android_client_info": {
+          "package_name": "com.example.commit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854440539861-j08p2bkuu4vsr3eqpnd56kammuh2l2l1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxSEFXqPfivRfCFW63JUelhJ7l_Vn97Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854440539861-j08p2bkuu4vsr3eqpnd56kammuh2l2l1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

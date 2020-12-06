@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Calendar">
+
+    <LinearLayout
+
+        android:id="@+id/vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical">
+
+        <CalendarView
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/calendar_bg"
+            android:theme="@style/CalenderViewCustom"
+            android:selectedWeekBackgroundColor="#211D44" />
+
+        <EditText
+            android:id="@+id/status"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="What's in your mind?"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center"
+            android:id="@+id/editTextNumber"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="How are you feeling? (1-10)"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="invisible"
+            android:text="Format example: Sys, Dia, Pulse, Oxygen, Temperature"
+            android:textColor="#52BAFF" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/savebtn"
+            android:layout_gravity="center"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#3F8EBF"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
